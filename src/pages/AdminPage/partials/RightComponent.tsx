@@ -95,7 +95,7 @@ export default function RightComponent() {
       </div>
 
       {/* info zone */}
-      <div className='col-start-4 col-span-2 h-full bg-[green] rounded bg-[#eaeef9] p-4 flex flex-col gap-4'>
+      <div className='col-start-4 col-span-2 h-full rounded bg-[#eaeef9] p-4 flex flex-col gap-4'>
         <div className='flex gap-2'>
           <span>Mouse: </span>
           <span> {`  (${mousePosition.x}, ${mousePosition.y})`}</span>
